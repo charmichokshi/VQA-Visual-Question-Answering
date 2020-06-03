@@ -1,4 +1,14 @@
-# VQA Demo
+# VQA- Visual Question Answering 
+
+VQA is a dataset containing open-ended questions about images. These questions require an understanding of vision, language and commonsense knowledge to answer.
+
+- 265,016 images (COCO and abstract scenes)
+- At least 3 questions (5.4 questions on average) per image
+- 10 ground truth answers per question
+- 3 plausible (but likely incorrect) answers per question
+- Automatic evaluation metric
+
+Details on downloading the latest dataset may be found on the [download webpage](https://visualqa.org/download.html)
 
 **Updated** to work with Keras 2.0 and TF 1.2 and Spacy 2.0
 This code is meant for education thus focus is on simplicity and not speed.
@@ -57,14 +67,6 @@ Expected Output :
   * GPU (Titan X) Theano optimizer=fast_compile   : 47.5 seconds
   * CPU (i7-5820K CPU @ 3.30GHz                   : 35.9 seconds (Is this strange or not ?)
 
-## iPython Notebook
-
-Jupyter/iPython Notebook has been provided with more examples and interactive tutorial.
-<https://github.com/iamaaditya/VQA_Demo/blob/master/Visual_Question_Answering_Demo_in_python_notebook.ipynb>
 
 NOTE:
 See the comments on demo.py for more information on the model and methods
-
-# VQA Training
-
-* See the repo https://github.com/iamaaditya/VQA_Keras to learn how to train new models
